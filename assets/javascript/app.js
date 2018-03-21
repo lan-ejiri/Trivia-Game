@@ -22,11 +22,10 @@ $(document).ready(function(){
 
 
     // }   
+
     
-    function randomizeQuestions() {
-        everything.sort(function(a, b){return 0.5 - Math.random()});
-        
-        $("#questionsgohere").append(everything[0].question);
-    }
+    //sorts questions into a random array every time
+    everything.sort(function(a, b){return 0.5 - Math.random()});
+   
 
 });
