@@ -19,23 +19,19 @@ $(document).ready(function(){
         correctAnswer: 'District 9'},
     ];
 
+    var randomQuestions;
+
     //makes sure every time refreh is pressed, question appear in different order
     function randomizeQuestions() {
-        var randomQuestions = everything.sort(function(a, b){return 0.5 - Math.random()});
+        randomQuestions = storeQuestions.sort(function(a, b){return 0.5 - Math.random()});
         
-        $("#questionsgohere").append(randomQuestions[0].question);
+        $("#questionsgohere").text(randomQuestions[0].question);
     }
-
-
+    //calling the function to display question
     randomizeQuestions();
 
+    
 
-    // for ( i = 0; i < everything.length; i++) {
-    //     $("#questionsgohere").text(everything[i].question);
-    //     $("#answersgohere").text(everything[i].answers);
-
-
-    // }   
     
     
 
