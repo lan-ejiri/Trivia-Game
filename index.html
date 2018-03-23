@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Mina" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
@@ -30,13 +31,21 @@
     <div class="container">
 
         <div class="row">
-            <div class="col-xs-12">
-                <button class="button-default" id="startbutton"> Click Here To Start!</button>
+            <div class="col-xs-12 content" id="startbutton">
+                <h2>
+                    <ul>
+                        <li>You will be presented will a series of sci-fi related trivia questions.</li>
+                        <li>You have 10 seconds to answer each question.</li>
+                        <li>The game will move onto the next question automatically after you guess or miss an answer.</li>
+                        <li>Good luck!</li>
+                    </ul>
+                </h2>
+                <button class="button-default" id="theactualstartbutton"> Click Here To Start!</button>
             </div>
         </div>
 
 
-       
+
 
         <div class="row">
             <div class="col-xs-12">
@@ -46,11 +55,11 @@
         </div>
 
         <div class="row">
-                <div class="col-xs-12">
-                    <div id="picgoeshere" class="content">
-                    </div>
+            <div class="col-xs-12">
+                <div id="picgoeshere" class="content">
                 </div>
             </div>
+        </div>
 
         <div class="row">
             <div class="col-xs-12">
@@ -59,12 +68,22 @@
             </div>
         </div>
 
-
         <div class="row">
                 <div class="col-xs-12">
-                    <div id="timeremaining" class="content"></div>
+                    <div id="endscreen" class="content">
+                    </div>
                 </div>
             </div>
+
+
+
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="timer">
+                    <div class="content" id="timeremaining"></div>
+                </div>
+            </div>
+        </div>
 
     </div>
 

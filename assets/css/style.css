@@ -1,0 +1,84 @@
+html,body {
+    background-image: url("../images/background.png");
+    background-size: cover;
+    height: 100%;
+    font-family: 'Mina','sans-serif';
+}
+
+.container-fluid{
+    color: white;
+}
+
+h1 {
+    font-size: 52px;
+}
+
+.container {
+    background-color: rgba(32, 0, 68, 0.55);
+    margin-top: 20px;
+    border-radius: 50px;
+    border: solid 2px rgba(32, 0, 68, 0.85);
+    box-shadow: 0 4px 10px 0 rgba(255, 255, 255, 0.6), 0 6px 25px 0 rgba(255, 255, 255, 0.42);
+    padding: 50px;
+}
+
+.content {
+    text-align: center;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #eee;
+    line-height: 2;
+    margin-top: 90px;
+}
+
+ul { list-style-type: none;
+}
+
+#theactualstartbutton, #playagain{
+    width: 200px;
+    font-size: 32px;
+}
+
+#questionsgohere {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: white;
+    font-size: 36px;
+}
+
+img {
+    margin: 50px;
+    border-radius: 6px;
+}
+
+img.card {
+    text-align: center;
+    border: rgb(138, 68, 218) 2px double;
+}
+
+
+
+
+
+.answerchoice {
+   width: 30%;
+    margin: 5px;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.timer {
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+
+#endscreen{
+    margin-top: 20px;
+    color: white;
+    font-size: 40px;
+}
+
