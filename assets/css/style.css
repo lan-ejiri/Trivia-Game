@@ -82,3 +82,13 @@ img.card {
     font-size: 40px;
 }
 
+
+@media only screen and (max-width: 640px) {
+    img {
+        width: 250px;
+    }
+
+    .answerchoice {
+        width: 70%;
+     }
+}
