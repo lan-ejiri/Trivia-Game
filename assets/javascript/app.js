@@ -8,60 +8,60 @@ $(document).ready(function () {
             correctAnswer: 'HAL 9000',
             pic: 'assets/images/hal.gif'
         },
-        // {
-        //     question: 'Matt Damon survives off of potatos on a far away planet in which movie?',
-        //     answers: ['The Martian', 'Prometheus', 'Interstellar', 'Gravity'],
-        //     correctAnswer: 'The Martian',
-        //     pic: 'assets/images/potato.gif'
-        // },
-        // {
-        //     question: 'An AI robot named Ava murders her creator in which film?',
-        //     answers: ['ex Machina', 'iRobot', 'District 9', 'Avatar'],
-        //     correctAnswer: 'ex Machina',
-        //     pic: 'assets/images/ava.gif'
-        // },
-        // {
-        //     question: 'Which movie has an alien species affectionately named "Prawn"?',
-        //     answers: ['District 9', 'Alien', 'Interstellar', 'The Day the Earth Stood Still'],
-        //     correctAnswer: 'District 9',
-        //     pic: 'assets/images/prawn.gif'
-        // },
-        // {
-        //     question: 'Which Star Wars movie first introduced the spherical companion BB-8?',
-        //     answers: ['The Force Awakens', 'The Last Jedi', 'Rogue One', 'Revenge of the Sith'],
-        //     correctAnswer: 'The Force Awakens',
-        //     pic: 'assets/images/bb8.gif'
-        // },
-        // {
-        //     question: 'Which film features a waste allocation load lifter earth class robot??',
-        //     answers: ['Wall-E', 'Planet of the Apes', 'Arrival', 'E.T.'],
-        //     correctAnswer: 'Wall-E',
-        //     pic: 'assets/images/walle.gif'
-        // },
-        // {
-        //     question: 'In the movie "The Thing," what is the antagonist?',
-        //     answers: ['An alien being', 'An ancient demon', 'An ancient ghost', 'An adaptive mutant'],
-        //     correctAnswer: 'An alien being',
-        //     pic: 'assets/images/thing.gif'
-        // },
-        // {
-        //     question: 'Which Sci-fi classic was read aloud on the radio, causing many people to believe it was real and freak out?',
-        //     answers: ['District 9', 'War of the Worlds', 'Metropolis', '2000 Leagues Under the Sea'],
-        //     correctAnswer: 'War of the Worlds',
-        //     pic: 'assets/images/war.gif'
-        // },
-        // {
-        //     question: 'In which film does the population get euthanized once they turn 30 years old?',
-        //     answers: ['Total Recall', 'Bladerunner', "Logan's Run", 'Terminator'],
-        //     correctAnswer: "Logan's Run",
-        //     pic: 'assets/images/logan.gif'
-        // },
-        // {
-        //     question: 'What was the mysterious entity that was threatening earth in "Star Trek The Motion Picture"?',
-        //     answers: ['Tyranus', 'Cobaly', 'Cygnus', "V'ger"],
-        //     correctAnswer: "V'ger",
-        //     pic: 'assets/images/star.gif'
-        // },
+        {
+            question: 'Matt Damon survives off of potatos on a far away planet in which movie?',
+            answers: ['The Martian', 'Prometheus', 'Interstellar', 'Gravity'],
+            correctAnswer: 'The Martian',
+            pic: 'assets/images/potato.gif'
+        },
+        {
+            question: 'An AI robot named Ava murders her creator in which film?',
+            answers: ['ex Machina', 'iRobot', 'District 9', 'Avatar'],
+            correctAnswer: 'ex Machina',
+            pic: 'assets/images/ava.gif'
+        },
+        {
+            question: 'Which movie has an alien species affectionately named "Prawn"?',
+            answers: ['District 9', 'Alien', 'Interstellar', 'The Day the Earth Stood Still'],
+            correctAnswer: 'District 9',
+            pic: 'assets/images/prawn.gif'
+        },
+        {
+            question: 'Which Star Wars movie first introduced the spherical companion BB-8?',
+            answers: ['The Force Awakens', 'The Last Jedi', 'Rogue One', 'Revenge of the Sith'],
+            correctAnswer: 'The Force Awakens',
+            pic: 'assets/images/bb8.gif'
+        },
+        {
+            question: 'Which film features a waste allocation load lifter earth class robot??',
+            answers: ['Wall-E', 'Planet of the Apes', 'Arrival', 'E.T.'],
+            correctAnswer: 'Wall-E',
+            pic: 'assets/images/walle.gif'
+        },
+        {
+            question: 'In the movie "The Thing," what is the antagonist?',
+            answers: ['An alien being', 'An ancient demon', 'An ancient ghost', 'An adaptive mutant'],
+            correctAnswer: 'An alien being',
+            pic: 'assets/images/thing.gif'
+        },
+        {
+            question: 'Which Sci-fi classic was read aloud on the radio, causing many people to believe it was real and freak out?',
+            answers: ['District 9', 'War of the Worlds', 'Metropolis', '2000 Leagues Under the Sea'],
+            correctAnswer: 'War of the Worlds',
+            pic: 'assets/images/war.gif'
+        },
+        {
+            question: 'In which film does the population get euthanized once they turn 30 years old?',
+            answers: ['Total Recall', 'Bladerunner', "Logan's Run", 'Terminator'],
+            correctAnswer: "Logan's Run",
+            pic: 'assets/images/logan.gif'
+        },
+        {
+            question: 'What was the mysterious entity that was threatening earth in "Star Trek The Motion Picture"?',
+            answers: ['Tyranus', 'Cobaly', 'Cygnus', "V'ger"],
+            correctAnswer: "V'ger",
+            pic: 'assets/images/star.gif'
+        },
     ];
 
     //jumbles questions
