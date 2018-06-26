@@ -180,6 +180,8 @@ $(document).ready(function () {
             startTimeQuestion();
 
             //display the question
+            var dispQ = questionNumber+1;
+            $("#questionnumber").text("Question " + dispQ + " of 10");
             $("#questionsgohere").text(randomQuestions[questionNumber].question);
 
             //jumbles question order

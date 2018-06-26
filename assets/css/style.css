@@ -42,10 +42,15 @@ ul { list-style-type: none;
 }
 
 #questionsgohere {
-    margin-top: 65px;
+    /* margin-top: 65px; */
     margin-bottom: 30px;
     color: white;
     font-size: 36px;
+}
+
+#questionnumber {
+    color: white;
+    font-size: 20px;
 }
 
 img {
